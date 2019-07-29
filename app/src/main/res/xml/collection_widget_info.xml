@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:previewImage="@mipmap/ic_launcher"
+    android:widgetCategory="home_screen"
+    android:initialKeyguardLayout="@layout/list_widget"
+    android:initialLayout="@layout/list_widget"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:updatePeriodMillis="1800000"
+    android:resizeMode="horizontal|vertical"
+    android:configure="com.jessicathornsby.collectionwidget.ConfigActivity">
+
+</appwidget-provider>
